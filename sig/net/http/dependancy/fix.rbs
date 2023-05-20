@@ -1,0 +1,10 @@
+module Net
+  module Http
+    module Dependancy
+      module Fix
+        VERSION: String
+        # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+      end
+    end
+  end
+end

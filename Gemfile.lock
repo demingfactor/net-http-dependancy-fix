@@ -1,0 +1,49 @@
+PATH
+  remote: .
+  specs:
+    net-http-dependancy-fix (0.1.0)
+      mail (~> 2.8.1)
+      net-http
+      net-imap
+      net-smtp
+      uri
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    date (3.3.3)
+    mail (2.8.1)
+      mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
+    mini_mime (1.1.2)
+    net-http (0.2.0)
+      net-protocol
+      uri
+    net-imap (0.3.4)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
+    rake (13.0.6)
+    timeout (0.3.2)
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  net-http
+  net-http-dependancy-fix!
+  net-imap
+  net-smtp
+  rake (~> 13.0)
+  uri
+
+BUNDLED WITH
+   2.4.12
