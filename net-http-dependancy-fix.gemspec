@@ -34,6 +34,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "net-http"
   spec.add_dependency "net-smtp"
   spec.add_dependency "net-imap"
-  spec.add_dependency "uri", "~> 0.10.0"
+  spec.add_dependency "uri", "~> 0.10.0.2"
   spec.add_dependency "mail", "~> 2.8.1"
 end
