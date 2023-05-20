@@ -11,18 +11,17 @@ LoadError: cannot load such file -- net/smtp
 
 This gem simply loads a curated collection of gems that fix the above warnings.
 
-Installing this gem essentially achieves installation of the following curated list of gems.
+Installing this gem essentially installs the following curated list of gems.
 ```
 gem 'net-smtp', require: false
 gem 'net-imap', require: false
 gem 'net-pop', require: false
 gem "uri"
-
 ```
 
- A strange little bug related to: 
+Resolves a some strange little bugs related to: 
  
- How ruby loads net/http + the mail gem is causing issues.
+How ruby loads net/http + the mail gem is causing issues.
 This gem is a shorthand to loading a small batch of gems that together fix this issue.
 
 ### When you might need this
@@ -30,7 +29,7 @@ This gem is a shorthand to loading a small batch of gems that together fix this 
 Commonly you might use this gem on a journey from Rails 5.0 to Rails 7 and later.
 Specifically once your on ruby 2.6 but before ruby 3.1 this could be affecting you.
 
- ### When you can remove this gem
+### When you can remove this gem
 
 The issue is (apparantley) solved from Rails 7.01 and in ruby 3.1.
 
