@@ -29,6 +29,9 @@ This gem is a shorthand to loading a small batch of gems that together fix this 
 Commonly you might use this gem on a journey from Rails 5.0 to Rails 7 and later.
 Specifically once your on ruby 2.6 but before ruby 3.1 this could be affecting you.
 
+From Rails 5.2 onwards, once your upgrade to ruby 2.6 this bug appears along the lines of net/http or uri dependancy error. 
+It's not formally resolved to go away until you step up to ruby 3.1, meaning once you get onto Rail 7.0. So once you upgrade to Rails 5.2 your forced to address this error which is live and in affect inclusive of 5.2, 6.0, 6.1 and on first arriving to 7.0 before you finally jump up to 7.0 on ruby 3.1.
+
 ### When you can remove this gem
 
 The issue is (apparantley) solved from Rails 7.01 and in ruby 3.1.
